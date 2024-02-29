@@ -1,0 +1,20 @@
+---
+import Social from './Social.astro';
+---
+
+  <style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    } 
+  
+  </style>
+
+  
+<footer>
+  <!-- <p>¡Más información sobre mis proyectos en <a href={`https://www.${platform}.com/${username}`}>{platform[0]}</a>, <a href="">{platform[1]}</a> y <a href="">{platform[2]}</a> !</p> -->
+  <Social platform="twitter" username="astrobuild" />
+  <Social platform="github" username="withastro" />
+  <Social platform="youtube" username="astrodotbuild" />
+</footer>
